@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Fredoka:wdth,wght@93.5,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nosifer&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+   font-family: "Afacad Flux", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 211;
+   font-style: normal;
+ 
+}
+
+
+
+.all{
+
+    display: flex;
+   flex-direction: column;
+   justify-content:space-between;
+   align-items:center;
+   gap:60px;
+   margin-top: 40px;
+   width: 100%;
+   min-height: 120px;
+
+}
+
+
+.text-input{
+
+
+    min-width: 300px;
+    min-height: 40px;
+}
+
+
+
+
+.sec1{
+
+    min-width: 300px;
+    min-height: 100px;
+   
+    display: flex;
+    flex-direction: column;
+   justify-content:center;
+   align-items:flex-start;
+   gap: 10px;
+}
+
+
+
+#color{
+    min-width: 100px;
+    min-height: 40px;
+ 
+
+}
+
+
+
+.secTow{
+
+    width:100%;
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+   justify-content:center;
+   align-items:center;
+   gap: 20px;
+}
+
+
+.rectangle{
+  border-radius: 15px;
+   width: 40px;
+  height: 40px;
+  background-color: bisque;
+}
+
+.color-code{
+   width: 40px;
+   height: 40px;
+
+}
+
+
+
+
+.choosen-color{
+
+  width: 200px;
+    display: flex;
+    justify-content:center;
+   align-items:center;
+
+   gap:10px;
+   min-width: 40px;
+ 
+   padding: 10px;
+}
+
+
+
+.history{
+    width:450px;
+    display: flex;
+    justify-content:flex-start;
+   align-items:center;
+   flex-wrap: wrap;
+background-color: rgba(165, 42, 42, 0.315);
+padding: 10px;
+border-radius: 15px;
+
+}
+
+
+
+
+.history-part{
+
+    font-size:60px;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+    
+}
+

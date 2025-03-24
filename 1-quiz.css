@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Fredoka:wdth,wght@93.5,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nosifer&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+   font-family: "Afacad Flux", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 211;
+   font-style: normal;
+ 
+}
+.all{
+
+    background-color: beige;
+    display: contents;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+#weather-info{
+    margin: 20px auto;
+    width:100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search-part{
+    min-height: 40px;
+    width:100vw;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.navbar{
+    min-height: 40px;
+    width:auto !important;
+    margin: 0 auto;
+}
+
+.form-part{
+ 
+    min-height: 40px;
+    width:auto;
+    margin: 0 auto;
+
+}
+
+.form-control{
+    width:auto;
+    background-color: azure;
+}
+
+
+
+
+
+.show{
+
+    min-height: 40px;
+    width: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(100, 148, 237, 0.24);
+border-radius: 15px;
+
+}
+
+
+.wSituation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 200px;
+    font-size: 30px;
+
+}
+
+.wind-humidity{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+min-height: 100px;
+flex-direction: row;
+gap: 70px;
+font-size: 30px;
+padding:0 90px;
+
+}
+
+
+.wind-humidity img {
+
+    width: 50px;
+    height: 50px;
+
+
+} 
+
+
+.wind{
+
+
+    width:auto;
+    min-height:90px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.wind img{
+
+    width:70px;
+    height: 70px;
+}
+
+
+.humidity{
+   
+    min-height:90px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    gap:10px;
+}
+
+.humidity img{
+    width:70px;
+    height:70px;
+
+}
+
+
+.pic{
+
+  
+    width: 70px;
+    height:70px;  
+}
+
+
+
+.name{
+
+    font-size:60px;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+
+
+
+@media (max-width:768px) {
+    
+    .all{
+
+        background-color: beige;
+        display: contents;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+    
+
+    
+    
+    .show{
+    
+        min-height: 40px;
+        width: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(100, 148, 237, 0.24);
+    border-radius: 15px;
+    padding: 50px;
+    margin: 0 40px;
+    margin-top: 50px;
+    }
+    
+    
+    .wSituation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+    
+    
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        width: 100%;
+        min-height: 200px;
+        font-size: 20px;
+    
+    }
+    
+    .wind-humidity{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    min-height:60px;
+    flex-direction: column;
+    font-size: 15px;
+   padding: 0;
+   gap: 0;
+   margin-top: 20px;
+   
+    
+    }
+    
+    
+    .wind-humidity img {
+    
+        width: 30px;
+        height: 30px;
+    
+    
+    } 
+    
+    
+    .wind{
+    
+    
+        width:auto;
+        min-height:30px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap:10px;
+
+    }
+    
+    .wind img{
+    
+        width:40px;
+        height: 40px;
+    }
+    
+    
+    .humidity{
+       
+        min-height:30px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 0;
+       
+    }
+    
+    .humidity img{
+        width:40px;
+        height:40px;
+    
+    }
+    
+    
+    .pic{
+    
+      
+        width: 70px;
+        height:70px;  
+    }
+    
+    
+    
+    .name{
+    
+        font-size:60px;
+        text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+    }
+    
+    
+
+
+
+    
+}
